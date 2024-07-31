@@ -24,6 +24,7 @@ npm install
 ## Scripts
 
 - **`start`**: Run in development mode
+
   ```npm start```
 
 - **`build`**: Build for production
@@ -46,3 +47,7 @@ npm install
    - **Materials**: [API Endpoint](https://api.sheety.co/af35b536915ec576818d468cf2a6505c/reactjsTest/material)
    - **Featured Products**: [API Endpoint](https://api.sheety.co/af35b536915ec576818d468cf2a6505c/reactjsTest/featured)
 2. Use Bearer Token: `Ex9yLyRU7wvyxfblpq5HAhfQqUP1vIyo`
+
+## Note
+
+    The image URLs for products received from the API return a "not found" error. A default fallback image was used instead.
